@@ -74,6 +74,32 @@ section h3 {
   margin-bottom: 8px;
 }
 
+/* New: participants list styling (bulleted but pretty) */
+.activity-card .participants-list {
+  margin-top: 8px;
+  padding-left: 20px; /* show bullets */
+}
+
+.activity-card .participants-list li {
+  margin-bottom: 8px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: white;
+  border: 1px solid #e6f0ff;
+  box-shadow: 0 1px 2px rgba(14, 42, 80, 0.03);
+  font-size: 14px;
+  color: #123;
+  list-style-position: inside;
+}
+
+/* Empty-state for no participants */
+.participants-empty {
+  margin-top: 8px;
+  color: #666;
+  font-style: italic;
+  font-size: 14px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
